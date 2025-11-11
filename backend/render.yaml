@@ -1,7 +1,10 @@
 services:
   - type: web
     name: nutritwin-api
-    runtime: python3
+    env: python
+    region: oregon
+    plan: free
+    branch: main
     buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
     startCommand: python render_launcher.py
     envVars:
@@ -9,4 +12,3 @@ services:
         value: 3.11.9
       - key: API_KEY
         generateValue: true
-    plan: free
