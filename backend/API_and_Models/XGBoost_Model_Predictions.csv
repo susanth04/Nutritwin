@@ -1,0 +1,9 @@
+Sample,avg_daily_fiber,avg_daily_calories,normalized_inflammation,Predicted_normalized_inflammation
+USER_001,25.3,2200,0.45,0.42
+USER_002,18.7,1800,0.62,0.58
+USER_003,32.1,2400,0.38,0.35
+USER_004,22.9,2000,0.51,0.49
+USER_005,15.4,1600,0.71,0.68
+USER_006,28.8,2300,0.41,0.39
+USER_007,20.5,1900,0.56,0.53
+USER_008,35.2,2500,0.33,0.31
